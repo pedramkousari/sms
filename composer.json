@@ -1,0 +1,24 @@
+{
+    "name": "pedramkousari/sms",
+    "description": "Send SMS",
+    "autoload": {
+        "psr-4": {
+            "Pedramkousari\\Sms\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "pedram kousari",
+            "email": "persianped@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Pedramkousari\\Sms\\SmsServiceProvider"
+            ]
+        }
+    }
+}
